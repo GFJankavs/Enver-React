@@ -17,11 +17,13 @@ body {
 .heading__2 {
   font-weight: 500;
   font-size: 48px;
+  margin-bottom: 16px;
 }
 
 .heading__3 {
   font-size: 34px;
   font-weight: 500;
+  margin-bottom: 18px;
 }
 
 .heading__5 {
@@ -37,4 +39,20 @@ body {
 .footer__text {
   color: #fff;
   font-weight: 400;
+}
+
+.margin-bottom--32 {
+  margin-bottom: 32px;
+}
+
+.margin-bottom--10 {
+  margin-bottom: 10px;
+}
+
+.button__image--right {
+  margin-left: 10px;
+}
+
+.heading--center {
+  text-align: center;
 }
