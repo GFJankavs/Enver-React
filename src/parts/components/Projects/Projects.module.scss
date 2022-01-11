@@ -3,12 +3,12 @@
   margin-bottom: 64px;
 }
 
-.projects__container {
+.container {
   padding-top: 64px;
   padding-bottom: 32px;
 }
 
-.project__image {
+.image {
   margin-top: 24px;
   width: 100%;
 
@@ -17,13 +17,13 @@
   }
 }
 
-.project__button-container {
+.buttonContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.project__button-wrapper {
+.buttonWrapper {
   width: 100%;
 }
 
@@ -32,7 +32,7 @@
   .projects {
     margin-bottom: 128px;
   }
-  .project__button-wrapper {
+  .buttonWrapper {
     width: 100%;
     max-width: 220px;
   }
