@@ -1,0 +1,47 @@
+.herobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 0;
+  text-align: center;
+}
+
+.herobox__text-title {
+  text-align: center;
+}
+
+.herobox__text-title--name {
+  color: #5C62EC;
+}
+
+.herobox__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.herobox__button-left {
+  margin-right: 24px;
+}
+
+.button__image--left {
+  width: 20px;
+  margin-right: 8px;
+}
+
+@media (max-width: 650px) {
+  .herobox__button-container {
+    flex-direction: column;
+  }
+
+  .herobox__button-right,
+  .herobox__button-left {
+    width: 172px;
+  }
+
+  .herobox__button-left {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}

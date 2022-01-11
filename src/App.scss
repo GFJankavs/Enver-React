@@ -1,0 +1,28 @@
+.App {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #171718;
+}
+
+.app__content {
+  padding: 0 142px;
+}
+
+@media (max-width: 1046px) {
+  .app__content {
+    padding: 0 72px;
+  }
+}
+
+@media (max-width: 902px) {
+  .app__content {
+    padding: 0 36px;
+  }
+}
+
+@media (max-width: 830px) {
+  .app__content {
+    padding: 0 16px;
+  }
+}

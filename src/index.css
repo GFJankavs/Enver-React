@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+.heading__1 {
+  font-size: 60px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.heading__2 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.heading__3 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.heading__5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__title {
+  color: #85BFD1;
+  font-weight: 500;
+}
+
+.footer__text {
+  color: #fff;
+  font-weight: 400;
+}

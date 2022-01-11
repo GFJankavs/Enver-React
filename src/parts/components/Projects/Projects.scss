@@ -1,0 +1,39 @@
+.projects {
+  display: block;
+  margin-bottom: 64px;
+}
+
+.projects__container {
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.project__image {
+  margin-top: 24px;
+  width: 100%;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.project__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__button-wrapper {
+  width: 100%;
+}
+
+
+@media (min-width: 651px) {
+  .projects {
+    margin-bottom: 128px;
+  }
+  .project__button-wrapper {
+    width: 100%;
+    max-width: 220px;
+  }
+}

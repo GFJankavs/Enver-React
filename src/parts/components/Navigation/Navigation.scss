@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  width: 100%;
+  max-width: 500px;
+}
+
+.navigation--hamburger-container {
+  display: none;
+}
+
+.navigation__item {
+  display: inline-flex;
+  text-align: center;
+  flex-basis: fit-content;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-size: 1em;
+  margin-left: 23px;
+  border-bottom: 2px solid transparent;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:hover {
+    border-bottom: 2px solid #5C62EC;
+  }
+}
+
+.navigation__item--active {
+  border-bottom: 2px solid #5C62EC;
+}
+
+.navigation--hamburger {
+  cursor: pointer;
+  transition: opacity 0.3s ease-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.navigation-hamburger {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #171718;
+  font-family: 'DM Sans', sans-serif;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.navigation-hamburger--open {
+  transform: translateX(0);
+}
+
+.navigation-hamburger__content {
+  padding: 18px 16px;
+}
+
+.navigation-hamburger__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-hamburger__close {
+  margin-right: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.navigation-hamburger__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.navigation-hamburger__item-container {
+  margin-bottom: 24px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.navigation-hamburger__item {
+  display: inline-flex;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    border-bottom: 2px solid #5C62EC;
+  }
+}
+
+.navigation-hamburger__item--active {
+  border-bottom: 2px solid #5C62EC;
+}
+
+@media (max-width: 650px) {
+  .navigation {
+    display: none;
+  }
+
+  .navigation--hamburger-container {
+    display: flex;
+  }
+}
