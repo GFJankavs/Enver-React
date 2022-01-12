@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# UI Designer Portfolio (Made using React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an example project for a UI designer Miguel Ruz Torres.
 
-## Available Scripts
+Project is based on designers Portfolio Template: [https://www.figma.com/community/file/1043975636941872336](https://www.figma.com/community/file/1043975636941872336).
 
-In the project directory, you can run:
+Tools used to create this project: 
+- React, 
+- React Tostify, 
+- React Hook Form, 
+- React Router.
 
-### `npm start`
+## Project Demonstration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Below you can see multiple images, showing how the website looks.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Main** Page:
 
-### `npm test`
+![MainPage](./src/assets/MainPage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **About**  Page: 
 
-### `npm run build`
+![AboutPage](./src/assets/AboutPage.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Projects** Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![ProjectsPage](./src/assets/ProjectsPage.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Contacts** Page:
 
-### `npm run eject`
+![ContactsPage](./src/assets/ContactPage.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you want to interact with this website, then you must:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Download this repository from GitHub.
+2. Open project folder with any code editor and install all necessary modules, using `npm install`.
+3. After all node modules have installed, use command `npm start` to create local server with this website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you need a developer for similar content, contact me via email: gfjankavs@tutamail.com

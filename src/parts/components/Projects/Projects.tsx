@@ -1,7 +1,8 @@
 import styles from './Projects.module.scss';
 import project from '../../../assets/images/project.png';
 import arrowRight from '../../../assets/images/arrow-right.svg';
-import ButtonNavigate from '../Buttons/ButtonNavigate/ButtonNavigate';
+
+import buttonStyles from '../../../styles/Buttons.module.scss';
 
 const Projects = () => (
   <div className={styles.projects}>
@@ -14,10 +15,19 @@ const Projects = () => (
     </div>
     <div className={styles.buttonContainer}>
       <div className={styles.buttonWrapper}>
-        <ButtonNavigate>
+        <a
+          href="https://www.behance.net"
+          target="_blank"
+          rel="noreferrer"
+          className={`${buttonStyles.button} ${buttonStyles.navigate}`}
+        >
           Ver más en Behance
-          <img className="button__image--right" src={arrowRight} alt="arrow_right" />
-        </ButtonNavigate>
+          <img
+            className={`${buttonStyles.image} ${buttonStyles.imageRight}`}
+            src={arrowRight}
+            alt="arrow_right"
+          />
+        </a>
       </div>
     </div>
   </div>

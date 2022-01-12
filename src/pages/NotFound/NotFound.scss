@@ -1,0 +1,16 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.notfound__heading {
+  padding: 40px 0;
+}
+
+.notfound__button-container {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}

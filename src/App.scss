@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 .App {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   background-color: #171718;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .app__content {
   padding: 0 142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 @media (max-width: 1046px) {

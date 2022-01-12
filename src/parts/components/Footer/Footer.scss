@@ -13,6 +13,11 @@
   flex-direction: column;
 }
 
+.footer__title,
+.footer__menu-item {
+  text-decoration: none;
+}
+
 .footer__menu-item {
   margin-top: 24px;
 }

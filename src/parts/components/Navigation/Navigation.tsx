@@ -1,6 +1,8 @@
 import { Link, NavLink, useParams } from 'react-router-dom';
 import { useState } from 'react';
+
 import navigationTitles from '../../../data/navigationTitles';
+
 import hamburger from '../../../assets/images/hamburger.svg';
 import logo from '../../../logo.svg';
 import close from '../../../assets/images/close.svg';

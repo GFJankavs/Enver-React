@@ -1,45 +1,96 @@
-import './Footer.scss';
+import { Link } from 'react-router-dom';
+
 import logo from '../../../logo.svg';
 import Behance from '../../../assets/images/Behance.svg';
 import LinkedIn from '../../../assets/images/Linkendl.svg';
 import Figma from '../../../assets/images/Figma.svg';
 
-const Footer = () => {
-  console.log(123);
-  return (
-    <>
-      <footer className="footer">
-        <div className="footer__top">
-          <img src={logo} alt="logo" className="footer__logo" />
-          <div className="footer__menu">
-            <span className="footer__title">Inicio</span>
-            <span className="footer__text footer__menu-item">Acerca de mi</span>
-            <span className="footer__text footer__menu-item">Proyectos</span>
-          </div>
-          <div className="footer__menu">
-            <span className="footer__title">Contáctame</span>
-            <span className="footer__text footer__menu-item">Correo</span>
-            <span className="footer__text footer__menu-item">LinkedIn</span>
-          </div>
-          <div className="footer__social">
-            <span className="footer__title">Social</span>
-            <div className="footer__menu-item footer__social-icons">
-              <button className="footer__social-icon">
-                <img src={Behance} alt="behance_logo" />
-              </button>
-              <button className="footer__social-icon">
-                <img src={LinkedIn} alt="linkedin_logo" />
-              </button>
-              <button className="footer__social-icon">
-                <img src={Figma} alt="figma_logo" />
-              </button>
-            </div>
+import './Footer.scss';
+
+const Footer = () => (
+  <>
+    <footer className="footer">
+      <div className="footer__top">
+        <img src={logo} alt="logo" className="footer__logo" />
+        <div className="footer__menu">
+          <Link
+            to="/"
+            className="footer__title"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Inicio
+          </Link>
+          <Link
+            to="/about"
+            className="footer__text footer__menu-item"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Acerca de mi
+          </Link>
+          <Link
+            to="/projects"
+            className="footer__text footer__menu-item"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Proyectos
+          </Link>
+        </div>
+        <div className="footer__menu">
+          <Link
+            to="/contacts"
+            className="footer__title"
+            onClick={() => window.scrollTo(0, 0)}
+          >
+            Contáctame
+          </Link>
+          <a
+            href="mailto:miguelruz1126@gmail.com"
+            className="footer__text footer__menu-item"
+          >
+            Correo
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/"
+            className="footer__text footer__menu-item"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="footer__social">
+          <span className="footer__title">Social</span>
+          <div className="footer__menu-item footer__social-icons">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.behance.net"
+              className="footer__social-icon"
+            >
+              <img src={Behance} alt="behance_logo" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/"
+              className="footer__social-icon"
+            >
+              <img src={LinkedIn} alt="linkedin_logo" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.figma.com"
+              className="footer__social-icon"
+            >
+              <img src={Figma} alt="figma_logo" />
+            </a>
           </div>
         </div>
-        <span className="footer__bottom">© 2021 Miguel Ruz </span>
-      </footer>
-    </>
-  );
-};
+      </div>
+      <span className="footer__bottom">© 2021 Miguel Ruz </span>
+    </footer>
+  </>
+);
 
 export default Footer;
