@@ -1,5 +1,6 @@
-import styles from './Header.module.scss';
 import Navigation from '../Navigation/Navigation';
+
+import styles from './Header.module.scss';
 import logo from '../../../logo.svg';
 
 const Header = () => (

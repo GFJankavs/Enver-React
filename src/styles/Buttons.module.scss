@@ -9,11 +9,35 @@
   color: #fff;
   height: 50px;
   width: 100%;
+  text-decoration: none;
+}
+
+.image {
+  filter: invert(0);
+  transition: filter 0.3s ease-out;
+}
+
+.imageLeft {
+  margin-right: 10px;
+}
+
+.imageRight {
+  margin-left: 10px;
 }
 
 .action {
   background-color: transparent;
   border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: white;
+    color: #000;
+
+    .image {
+      filter: invert(1);
+    }
+  }
 }
 
 .navigate {

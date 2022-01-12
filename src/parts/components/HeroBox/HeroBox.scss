@@ -1,5 +1,6 @@
 .herobox {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 128px 0;
@@ -28,6 +29,10 @@
 .button__image--left {
   width: 20px;
   margin-right: 8px;
+}
+
+.button__image {
+  margin-right: 10px;
 }
 
 @media (max-width: 650px) {
