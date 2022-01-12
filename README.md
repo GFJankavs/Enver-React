@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# UI Designer Portfolio (Made using React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an example project for a UI designer Miguel Ruiz.
+
+Project is based on 
 
 ## Available Scripts
 

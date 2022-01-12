@@ -52,7 +52,7 @@ const Footer = () => (
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/"
             className="footer__text footer__menu-item"
           >
             LinkedIn
@@ -72,7 +72,7 @@ const Footer = () => (
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/"
               className="footer__social-icon"
             >
               <img src={LinkedIn} alt="linkedin_logo" />
