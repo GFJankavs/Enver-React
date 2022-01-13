@@ -30,10 +30,6 @@ Below you can see multiple images, showing how the website looks.
 
 ![ContactsPage](./src/assets/ContactPage.png)
 
-If you want to interact with this website, then you must:
-
-1. Download this repository from GitHub.
-2. Open project folder with any code editor and install all necessary modules, using `npm install`.
-3. After all node modules have installed, use command `npm start` to create local server with this website.
+If you want to interact with this website, visit this link: [https://enver-react.netlify.app](https://enver-react.netlify.app)
 
 If you need a developer for similar content, contact me via email: gfjankavs@tutamail.com
